@@ -9,14 +9,10 @@ public class GameOver : MonoBehaviour {
 	Vector3 tempPos;
 	Vector3 ballPos;
 
-	void Start () {
-		
+	void Start () {	
 	}
-
 	// Update is called once per frame
 	void Update ()
-
-	
 		{
 		ballPos = ball.transform.position;
 			if (ballPos.x < -0.31 && ballPos.y < -0.355) 
