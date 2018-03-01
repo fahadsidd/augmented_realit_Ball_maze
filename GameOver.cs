@@ -25,11 +25,6 @@ public class GameOver : MonoBehaviour {
 				tempPos = transform.position;
 				tempPos.x += 3f * Time.deltaTime;
 				transform.position = tempPos;
-
 			}
-
-
 		}
-	
-
 	}
